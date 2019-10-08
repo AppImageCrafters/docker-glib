@@ -2,7 +2,7 @@
 
 set -xe
 
-source /opt/rh/devtoolset-*/enable
+source /entrypoint.sh
 
 # Install dependencies
 yum install -y libffi-devel gettext xz automake autoconf libtool zlib-devel patch
